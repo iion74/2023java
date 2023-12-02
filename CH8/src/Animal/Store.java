@@ -8,6 +8,10 @@ public class Store {
 		this.item = item;
 	}
 	
-	void CheckPrice
+	void CheckPrice()
+	{
+		item.GetPrice();
+	}
+      
 
 }

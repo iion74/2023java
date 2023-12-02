@@ -7,6 +7,6 @@ public class Dog implements Payient, Item{
 	
 	public void GetPrice()
 	{
-		System.out.println
+		System.out.println("10000");
 	}
 }

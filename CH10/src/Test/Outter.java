@@ -1,7 +1,8 @@
 package Test;
 
 public class Outter {
-	int field = 10;
+int field = 10;
+	
 	void method() {
 		System.out.println("Outter class method");
 	}
@@ -9,11 +10,14 @@ public class Outter {
 	class Nested{
 		int field = 20;
 		void method() {
-			System.out.println("Nested class method :" + Outter.this.field);
+			System.out.println("Nested class method : " + field); 
 		}
+		
 		void method2() {
-			Outter.this.method();
-		}
+			method(); 
+	}
+	
+	
 	}
 
 }
